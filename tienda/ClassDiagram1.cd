@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="tienda.persona">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIEACAIgAAAAAQAAAIAIAAAAAAAAAA=</HashCode>
+      <FileName>persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tienda.Cliente">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAAAAIEAAAAAAAAAAAAAAAACAAAAQCAAAAAI=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tienda.Envio">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAgCAAAAQABAAAAAAAAAAAAAAEAQAAAAAAwA=</HashCode>
+      <FileName>Envio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tienda.Pedido">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAJAAAAAAAAAAAAAABAAAAAAAUAAAEAAAgA=</HashCode>
+      <FileName>Pedido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tienda.Pago">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAQAAAAAEAIAAAAAAAIAAIAAgI=</HashCode>
+      <FileName>Pago.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Envio" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="tienda.Linea_producto">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAEAAABAAAAAAAAAAAAAAAAAEACAAAAAAAAAAAA=</HashCode>
+      <FileName>Linea_producto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="producto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="tienda.producto">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAIQAAAAEAABAAAgA=</HashCode>
+      <FileName>producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="tienda.Carritoi_de_compra">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAgAAAAEAAGBAAAAAAAEAAIAAAAAAEAAAAAAgAA=</HashCode>
+      <FileName>Carritoi_de_compra.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Pedido" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

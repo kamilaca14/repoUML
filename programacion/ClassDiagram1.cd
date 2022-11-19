@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="programacion.Programa">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAEAAAAAAAACAQAAAEgAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Programa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="programacion.Materi">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAIAg=</HashCode>
+      <FileName>Materi.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Docente" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="programacion.Alumno">
+    <Position X="2" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAEAACggAAAAEAAAAAAAAAAKAAAABA=</HashCode>
+      <FileName>Alumno.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Materi" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="programacion.Docente">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAQQAAACAAAAAAAAAAAAIAAAAEQAAAQADAAA=</HashCode>
+      <FileName>Docente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="programacion.jefe_departamento">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAEAhAAAAACAABAAACQAAQAAgAAIAA=</HashCode>
+      <FileName>jefe_departamento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="administracion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="programacion.administracion">
+    <Position X="8.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAIAQCIAABCAAAAAAAAAAAQAAAADAAgAgAAAA=</HashCode>
+      <FileName>administracion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

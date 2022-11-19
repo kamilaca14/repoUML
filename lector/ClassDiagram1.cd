@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="lector.lector">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAIAAAAQCAAAAACAAgAAAAAAIAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>lector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lector.Estudiante">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEEAAABAAAAIQQAgAgAAAAAAAAAAAAE=</HashCode>
+      <FileName>Estudiante.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="libro" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lector.Bibliotecario">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgIAAAFACCAAAQIAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Bibliotecario.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Pedido" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="lector.Pedido">
+    <Position X="9" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAZABAAgQAAAAAAAAAA=</HashCode>
+      <FileName>Pedido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="lector.libro">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAACAAAAAAAAAABAAAAAAIAAAAAAACAAAAABEAQE=</HashCode>
+      <FileName>libro.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Bibliotecario" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

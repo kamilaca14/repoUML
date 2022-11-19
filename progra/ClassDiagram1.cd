@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="progra.persona">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEQAAAQAAAAAAAAggAAAAAQAAgIAIAAAAAAAAAA=</HashCode>
+      <FileName>persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="progra.cliente">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAEAgAEIAABAQAAAAAEAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>cliente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Pagar" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="progra.vendedor">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAYAAAAAAAAAAAAAAAAAAAAQAgAAAAAgA=</HashCode>
+      <FileName>vendedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="progra.Moto">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAEAAAAAAAAAAIBAAAAAAAAAAAAACIAQAAAAAIIAg=</HashCode>
+      <FileName>Moto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="vendedor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="progra.Pagar">
+    <Position X="11.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAABAkAAAAAAEAAAAAAAAAABAAgQAA=</HashCode>
+      <FileName>Pagar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
